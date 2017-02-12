@@ -4,6 +4,6 @@
  */
 chrome.browserAction.onClicked.addListener(function(tab) {
   console.log('running');
-  chrome.tabs.create({url: 'clock.html'});
+  chrome.tabs.create({url: 'html/clock.html'});
   console.log('running');
 });

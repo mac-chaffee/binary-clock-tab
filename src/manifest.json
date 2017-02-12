@@ -8,7 +8,7 @@
     "default_icon": "img/binaryclock.png"
   },
   "background": {
-    "scripts": ["TabOpener.js"]
+    "scripts": ["js/TabOpener.js"]
   },
   "permissions": [
 
