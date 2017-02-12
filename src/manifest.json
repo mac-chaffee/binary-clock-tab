@@ -5,7 +5,7 @@
   "description": "Gives you an easily-accessible binary clock tab",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "img/icon.png"
+    "default_icon": "img/binaryclock.png"
   },
   "background": {
     "scripts": ["TabOpener.js"]
