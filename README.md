@@ -6,4 +6,5 @@ tab when you click on the icon. Just a fun proof-of-concept extension used
 to teach myself about Chrome extension development.
 
 Screen shot:
-[[img/clockscreenshot.png|alt=binary clock screenshot]]
+
+![binary clock screenshot](img/clockscreenshot.png)
