@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
 function drawClock() {
   // Get the current time as a Date object
   var now = new Date();
-  document.getElementById('status').innerHTML = `${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
   // Convert each part of that time to binary
   allDotsToActivate = [convertToBinary(now.getHours()),
                        convertToBinary(now.getMinutes()),
