@@ -7,4 +7,4 @@ to teach myself about Chrome extension development.
 
 ## Screen shot:
 
-![binary clock screenshot](img/clockscreenshot.png)
+![binary clock screenshot](https://github.com/mac-chaffee/binary-clock-tab/raw/master/src/img/clockscreenshot.png)
