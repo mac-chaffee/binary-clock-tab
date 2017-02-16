@@ -4,7 +4,7 @@
   "name": "Binary Clock Tab",
   "short_name": "Binary Clock Tab",
   "description": "Gives you an easily-accessible binary clock tab. Click on the icon to open the tab. Yes, I know this has been done before.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Mac Chaffee",
   "icons": {
     "128":"img/binaryclock.png"
