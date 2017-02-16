@@ -14,6 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
 function drawClock() {
   // Get the current time as a Date object
   var now = new Date();
+  nowString = now.toLocaleTimeString('en-US', {
+    hour12: false,
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric"
+  });
+  // Put that raw date in #time to help people out
+  $("#time").html(nowString);
   // Convert each part of that time to binary
   allDotsToActivate = [convertToBinary(now.getHours()),
                        convertToBinary(now.getMinutes()),

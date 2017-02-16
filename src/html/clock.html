@@ -2,35 +2,39 @@
   <head>
     <title>Binary Clock</title>
     <!-- Load CSS and JS -->
+    <!-- Sorry I broke down and used jquery -->
+    <script src="/js/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"></script>
     <script src="/js/clock.js"></script>
+    <script src="/js/ui.js"></script>
+
   </head>
   <body>
     <div class="flex-container">
-      <div class="column">
-        <div class="label">8</div>
-        <div class="label">4</div>
-        <div class="label">2</div>
-        <div class="label">1</div>
-        <div class="label"></div>
+      <div class="column column-first">
+        <div class="label label-hidden">8</div>
+        <div class="label label-hidden">4</div>
+        <div class="label label-hidden">2</div>
+        <div class="label label-hidden">1</div>
+        <div class="label label-hidden"></div>
       </div>
       <div class="column" id="hour-tens">
         <div class="dot" id="8"></div>
         <div class="dot" id="4"></div>
         <div class="dot" id="2"></div>
         <div class="dot" id="1"></div>
-        <span class="label">h</span>
+        <span class="label label-hidden">h</span>
       </div>
       <div class="column" id="hour-ones">
         <div class="dot" id="8"></div>
         <div class="dot" id="4"></div>
         <div class="dot" id="2"></div>
         <div class="dot" id="1"></div>
-        <span class="label">h</span>
+        <span class="label label-hidden">h</span>
       </div>
 
       <div class="column">
-        <span id="colon">:</span>
+        <!-- <span id="colon">:</span> -->
       </div>
 
       <div class="column" id="minute-tens">
@@ -38,32 +42,39 @@
         <div class="dot" id="4"></div>
         <div class="dot" id="2"></div>
         <div class="dot" id="1"></div>
-        <span class="label">m</span>
+        <span class="label label-hidden">m</span>
       </div>
       <div class="column" id="minute-ones">
         <div class="dot" id="8"></div>
         <div class="dot" id="4"></div>
         <div class="dot" id="2"></div>
         <div class="dot" id="1"></div>
-        <span class="label">m</span>
+        <span class="label label-hidden">m</span>
       </div>
 
-      <div class="column" id="colon">:</div>
+      <div class="column">
+        <!-- <span id="colon">:</span> -->
+      </div>
 
       <div class="column" id="second-tens">
         <div class="dot" id="8"></div>
         <div class="dot" id="4"></div>
         <div class="dot" id="2"></div>
         <div class="dot" id="1"></div>
-        <span class="label">s</span>
+        <span class="label label-hidden">s</span>
       </div>
-      <div class="column" id="second-ones">
+      <div class="column column-last" id="second-ones">
         <div class="dot" id="8"></div>
         <div class="dot" id="4"></div>
         <div class="dot" id="2"></div>
         <div class="dot" id="1"></div>
-        <span class="label">s</span>
+        <span class="label label-hidden">s</span>
       </div>
 
+      <div id="toggle" class="hidden">
+        <span id="time" class="label label-hidden">00:00:00</span>
+        <br/>
+        <span class="help help-hidden">?</span>
+      </div>
   </body>
 </html>
